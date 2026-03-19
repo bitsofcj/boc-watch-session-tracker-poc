@@ -1,0 +1,25 @@
+{
+  "name": "boc-watch-session-tracker",
+  "version": "1.0.0",
+  "description": "Near real-time proof-of-concept for tracking viewer engagement during live sports events.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "LOG_LEVEL=warn tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "client": "bash clients/shell/client.sh",
+    "client:ts": "tsx clients/ts/client.ts"
+  },
+  "dependencies": {
+    "@duckdb/node-api": "^1.5.0-r.1",
+    "fastify": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
