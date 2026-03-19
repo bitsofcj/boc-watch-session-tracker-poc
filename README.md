@@ -1,6 +1,6 @@
 # Watch Session Tracker
 
-A real-time viewer session tracking service for live sporting events.
+A near real-time viewer session tracking service for live sporting events.
 
 ## Getting Started
 
